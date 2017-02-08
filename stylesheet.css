@@ -1,0 +1,49 @@
+#divLeft {
+        
+        width: 0;
+        height: 0;
+        border-top: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-bottom: 100px solid transparent;
+        border-left: 100px solid yellow;
+
+        }
+
+#divTop {
+        
+        width: 0;
+        height: 0;
+        border-top: 100px solid red;
+        border-right: 100px solid transparent;
+        border-bottom: 100px solid transparent;
+        border-left: 100px solid transparent;
+        position: relative;
+        bottom: 200px;
+
+        }
+
+#divRight {
+       
+        width: 0;
+        height: 0;
+        border-top: 100px solid transparent;
+        border-right: 100px solid green;
+        border-bottom: 100px solid transparent;
+        border-left: 100px solid transparent;
+        position: relative;
+        bottom: 400px;
+                
+        }
+
+#divBottom {
+
+        width: 0;
+        height: 0;
+        border-top: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-bottom: 100px solid lightblue;
+        border-left: 100px solid transparent;
+        position: relative;
+        bottom: 600px;
+        
+        }
