@@ -1,4 +1,7 @@
 div {
+        display: inline-block;
+}
+#square {
         
         width: 0;
         height: 0;
@@ -8,4 +11,29 @@ div {
         border-left: 100px solid yellow;
 
         }
+
+#circle {
+
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: blue;
+
+}
+
+#trapezium {
+        height: 0;
+        width: 100px;
+        border-bottom: 100px solid red;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+}
+
+#diamond {
+        width: 150px;
+        height: 150px;
+        transform: rotate(45deg);
+        /*transform-origin: 0 100%; */
+        background-color: green;
+}
 
